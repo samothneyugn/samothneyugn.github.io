@@ -1,4 +1,3 @@
-import duck from './images/duck.jpg'
 import './App.css';
 
 function App() {
@@ -10,10 +9,14 @@ function App() {
           Hi my name is Thomas Nguyen and I think Ducks are really cool! if you want to learn more about ducks go here!
         </p>
         <p>
-        <a href = "https://kids.nationalgeographic.com/animals/birds/facts/mallard-duck" 
+        <a 
+        className='a1'
+        href = "https://kids.nationalgeographic.com/animals/birds/facts/mallard-duck" 
         target='_blank' 
-        rel = "noopener noreferrer">
+        rel = "noopener noreferrer"
+        >
           Click here!
+          
         </a>
         </p>
 
